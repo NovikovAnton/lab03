@@ -17,15 +17,15 @@ $ open https://git-scm.com
 
 ```ShellSession
 $ export GITHUB_USERNAME=NovikovAnton # Установка значения GITHUB_USERNAME
-$ export GITHUB_EMAIL=jNova916@bk.ru # Установка значения GITHUB_EMAIL
+$ export GITHUB_EMAIL=Nova916@bk.ru # Установка значения GITHUB_EMAIL
 $ alias edit=vim # Настройка текстового редактора
 ```
 
 ```ShellSession
 $ mkdir lab03 && cd lab03 # Создание папки lab03 и переходим туда
 $ git init # Процесс инициализации
-$ git config --global user.name ${GITHUB_USERNAME} # Прописка GITHUB_USERNAME в файл .gitconfig
-$ git config --global user.email ${GITHUB_EMAIL} # Прописка GITHUB_EMAIL в файл .gitconfig
+$ git config --global user.name NovikovAnton # Прописка GITHUB_USERNAME в файл .gitconfig
+$ git config --global user.email Nova916@bk.ru # Прописка GITHUB_EMAIL в файл .gitconfig
 $ git config -e --global # Проверка файла через текстовый редактор nano
 $ git remote add origin https://github.com/${GITHUB_USERNAME}/lab03 # Добавление удаленного репозитория
 $ git pull origin master # Извлечение и заполнение данного рпозитория
